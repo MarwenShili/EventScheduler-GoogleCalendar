@@ -62,7 +62,6 @@ const Dashboard = () => {
   }
 
   return (
-    // <GoogleOAuthProvider clientId="205480834938-lefaggoblu8hmov2b37civlsn7an9vh6.apps.googleusercontent.com">
     <div className="dashboard-page">
       <Form form={form} onFinish={onFinish}>
         <Form.Item name="summary" label="Meeting Summary">
@@ -93,7 +92,6 @@ const Dashboard = () => {
         </Form.Item>
       </Form>
     </div>
-    // </GoogleOAuthProvider>
   )
 }
 
