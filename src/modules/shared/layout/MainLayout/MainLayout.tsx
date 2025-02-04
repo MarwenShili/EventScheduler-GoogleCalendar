@@ -35,7 +35,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
           i18n.language.toString() === 'en' ? 'main-layout-sidebar' : 'main-layout-sidebar-ar'
         } ${showSidebar ? 'main-layout-toggle-mobile-sidebar' : ''}`}
       >
-        <Sidebar />
+        {/* <Sidebar /> */}
       </div>
 
       {showSidebar ? <span className="main-layout-shadow"></span> : null}
