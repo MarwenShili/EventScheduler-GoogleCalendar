@@ -1,0 +1,9 @@
+{
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "books": "Books",
+    "profile": "Profile",
+    "trying": "Trying"
+  }
+}
